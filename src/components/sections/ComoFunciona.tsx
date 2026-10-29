@@ -1,9 +1,9 @@
 import { Reveal } from '@/components/shared/Reveal'
 
 const passos = [
-  { n: '01', titulo: 'Chegue como está', texto: 'Sem pré-requisito, sem repertório mínimo. Escolha um encontro e apareça.' },
-  { n: '02', titulo: 'Participe de verdade', texto: 'Leia, converse, crie. Aqui ninguém só assiste: todo mundo entra na roda.' },
-  { n: '03', titulo: 'Volte e construa', texto: 'Dos encontros nascem vínculos, ideias e projetos que seguem além do evento.' },
+  { n: '01', titulo: 'Presencial de verdade', texto: 'O online só organiza. A experiência rola com gente de verdade em lugares de verdade.' },
+  { n: '02', titulo: 'Gente puxando gente', texto: 'Todo encontro começa com alguém querendo reunir a galera em volta de algo em comum.' },
+  { n: '03', titulo: 'Fácil de entrar', texto: 'Você pode fazer parte do clube através da assinatura mensal ou inscrição por eventos.' },
 ]
 
 export function ComoFunciona() {

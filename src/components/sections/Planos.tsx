@@ -13,7 +13,7 @@ export function Planos() {
     <section id="participe" className="mx-auto max-w-300 px-5 py-20 md:px-8 md:py-28">
       <Reveal className="mx-auto mb-12 max-w-2xl text-center md:mb-16">
         <p className="text-xs font-semibold uppercase tracking-[0.2em] md:text-sm">Participe</p>
-        <h2 className="mt-4 text-5xl font-semibold md:text-7xl">Escolha como entrar na roda</h2>
+        <h2 className="mt-4 text-5xl font-semibold md:text-7xl">Escolha como fazer parte</h2>
       </Reveal>
 
       <div className="grid gap-6 md:grid-cols-3 md:items-stretch">
@@ -50,7 +50,7 @@ export function Planos() {
                 rel="noreferrer"
                 className="w-full justify-between"
               >
-                Quero fazer parte
+                {p.cta ?? 'Quero fazer parte'}
               </CtaButton>
             </article>
           </Reveal>

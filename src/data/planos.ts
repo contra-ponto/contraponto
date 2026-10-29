@@ -5,6 +5,7 @@ export interface Plano {
   preco: string
   periodo: string
   nota?: string
+  cta?: string
   destaque?: boolean
   beneficios: string[]
 }
@@ -15,7 +16,8 @@ export const planos: Plano[] = [
     nome: 'Encontro avulso',
     preco: 'R$ 35',
     periodo: 'por encontro',
-    beneficios: ['Escolha o encontro que quiser', 'Sem compromisso de permanência', 'Conheça a turma antes de decidir'],
+    cta: 'Quero mais informações',
+    beneficios: ['Escolha o encontro que quiser', 'Sem compromisso de permanência', 'Brinde do evento', 'Comunidade de avisos'],
   },
   {
     id: 'mensal',
@@ -24,7 +26,15 @@ export const planos: Plano[] = [
     periodo: 'por mês',
     destaque: true,
     nota: 'Mais escolhido',
-    beneficios: ['Todos os encontros presenciais do mês', 'Atividades on-line inclusas', 'Grupo da comunidade no WhatsApp', 'Voto nos temas dos próximos encontros'],
+    beneficios: [
+      'Encontro presencial do mês',
+      'Atividades online inclusas',
+      'Grupo da comunidade no WhatsApp',
+      'Voto nos temas dos próximos encontros',
+      'Sorteios de livros e outros brindes',
+      'Inscrição dos eventos',
+      'Acesso antecipado a eventos',
+    ],
   },
   {
     id: 'anual',

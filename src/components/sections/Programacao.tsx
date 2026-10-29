@@ -29,8 +29,8 @@ export function Programacao() {
       </Reveal>
 
       <Tabs value={filtro} onValueChange={setFiltro}>
-        <div className="-mx-5 overflow-x-auto px-5 md:mx-0 md:px-0">
-          <TabsList className="h-auto w-max gap-2 bg-transparent p-0">
+        <div className="-mx-5 overflow-x-auto overflow-y-hidden px-5 py-1.5 md:mx-0 md:px-1">
+          <TabsList className="w-max gap-2 bg-transparent p-0 group-data-[orientation=horizontal]/tabs:h-auto">
             {categorias.map((c) => (
               <TabsTrigger
                 key={c}
